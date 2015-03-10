@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+<head>
+	<title> coolCodeTeam  </title>
+	<link rel="stylesheet" href="khanhHomePage.css" />
+	
+	
+	<style> 
+		body {
+			background-image: url("Capture.PNG");
+			
+		}
+		fieldset {
+			width: 350px;
+			height: 220px;
+			position: absolute;
+			top: 25%;
+			left: 55%;
+			background-color: white;
+		}
+		
+		.signup {
+			width: 350px;
+			height: 250px;
+			position: absolute;
+			top : 45%;
+			left: 45%;
+		}
+		strong {
+			font-size: 50px;
+			position:absolute;
+			top: 6%;
+			left: 25%;
+			color: white;
+		}
+		.logintitle{
+			font-size: 20px;
+			color: blue;
+			text-align: center;
+		}
+		img {
+			width: 300px;
+			
+		}
+		
+	</style>
+	
+</head>
+<body>
+	<!--    header    -->
+		<header class = "topheader">
+			<p class ="logo"> <img src = "profound.png" />  <strong> COOL-CODE-Team </strong>
+			
+			</p>
+		</header>
+		<div class= "signup">
+		<form action="https://twitter.com/signup" class="t1-form signup" id="frontpage-signup-form" method="post">
+	<p class= "logintitle" style = "color: white"> New to ProFound? Sign up </p>
+    <div class="field">
+      <input style = "width: 330px" type="text" class="text-input" autocomplete="off" name="user[name]" maxlength="20" placeholder="Full name">
+    </div>
+    <div class="field">
+      <input style = "width: 330px" type="text" class="text-input email-input" autocomplete="off" name="user[email]" placeholder="Email">
+    </div>
+    <div class="field">
+      <input style = "width: 330px" type="password" class="text-input" name="user[user_password]" placeholder="Password">
+    </div>
+
+    <input type="hidden" value="" name="context">
+    <input type="hidden" value="3118e0f36a441aeb3834ecfe869fdc72a0c54a98" name="authenticity_token">
+    <button type="submit" class="btn signup-btn u-floatRight">
+      Sign up for ProFound
+    </button>
+  </form>
+  </div>
+		<br />
+		
+		<fieldset>
+    
+	<p class="logintitle"> Log In </p>
+    <div class="textbox">
+  <label class="t1-label username js-username">
+    <p> Phone, email or username</p>
+    <input class="js-username-field email-input js-initial-focus" type="text" name="session[username_or_email]" autocomplete="on">
+  </label>
+  <label class="t1-label password js-password">
+    <p>Password</p>
+    <input class="js-password-field" type="password" value="" name="session[password]">
+  </label>
+  
+	<div class="subchck">
+  <button type="submit" class="btn submit">Log in</button>
+  <label class="t1-label remember">
+    <input type="checkbox" value="1" name="remember_me" checked="checked">
+    <span>Remember me</span>
+  </label>
+</div>
+</div>
+
+    
+
+<input type="hidden" name="scribe_log">
+<input type="hidden" name="redirect_after_login" value="/?lang=en">
+<input type="hidden" value="ea1cdc81502f8e25c6e7ea4396dac3e16a78e365" name="authenticity_token"/>
+
+  </fieldset>
+
+</body>
+</html>
